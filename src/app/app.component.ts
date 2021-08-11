@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-movies';
+  title = 'A revolta do zubu';
+  nome = 'Leonardo Lima Pontes';
+
+  mostrarNome(){
+    return this.nome;
+  }
+
+  retornarDobro(numero: number){
+    return  numero * 2;
+  }
 }
